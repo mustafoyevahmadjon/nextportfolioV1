@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+}
+#nprogress .bar {
+	z-index: 1110 !important;
+}
+@layer base {
+    body {
+        @apply !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-zinc-700
+    }
+}
